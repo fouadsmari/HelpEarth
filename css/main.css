@@ -2,5 +2,14 @@
 :root {
   --greenColor:#2a7d2f;
   --blackColor:#222222;
+  --whiteColor:#ffffff;
 }
 /* End Variables */
+
+/* Start Top Bar */
+.Top-bar {
+  background-color: var(--greenColor);
+  color: var(--whiteColor);
+  padding: 10px;
+}
+/* End Top Bar */
