@@ -35,3 +35,43 @@ header nav .nav-item {
   background-color: var(--greenColor);
 }
 /* End Nav */
+
+/* Start Slider */
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.carousel-item {
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  width: 100%;
+  z-index: 1;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  z-index: 2;
+  background-color: var(--blackColor);
+  opacity: 0.5;
+}
+.slide h1 {
+  position: absolute;
+  z-index: 3;
+  color: var(--whiteColor);
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+}
+.slide1 {
+  background-image: url(../img/slider1.jpg);
+}
+.slide2 {
+  background-image: url(../img/slider2.jpg);
+}
+.slide3 {
+  background-image: url(../img/slider3.jpg);
+}
+/* End Slider */
