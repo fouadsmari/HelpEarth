@@ -15,4 +15,10 @@
 header .fab {
   font-size: 20px;
 }
+header nav {
+  background-color: var(--whiteColor);
+}
+header nav .nav-link {
+  color: var(--blackColor)!important;
+}
 /* End Top Bar */
