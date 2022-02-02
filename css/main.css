@@ -15,6 +15,9 @@
 header .fab {
   font-size: 20px;
 }
+/* End Top Bar */
+
+/* Start Nav */
 header nav {
   background-color: var(--whiteColor);
 }
@@ -24,4 +27,4 @@ header nav .nav-link {
 header nav .nav-item {
   margin: 0px 10px;
 }
-/* End Top Bar */
+/* End Nav */
