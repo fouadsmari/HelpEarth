@@ -16,3 +16,22 @@ header .fab {
   font-size: 20px;
 }
 /* End Top Bar */
+
+/* Start Nav */
+header nav {
+  background-color: var(--whiteColor);
+}
+header > nav > a > span {
+  color: var(--greenColor)!important;
+}
+header nav .nav-link {
+  color: var(--blackColor)!important;
+}
+header nav .nav-item {
+  margin: 0px 10px;
+}
+.don {
+  color: var(--whiteColor);
+  background-color: var(--greenColor);
+}
+/* End Nav */
