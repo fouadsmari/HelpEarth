@@ -21,6 +21,9 @@ header .fab {
 header nav {
   background-color: var(--whiteColor);
 }
+header > nav > a > span {
+  color: var(--greenColor)!important;
+}
 header nav .nav-link {
   color: var(--blackColor)!important;
 }
