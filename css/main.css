@@ -21,4 +21,7 @@ header nav {
 header nav .nav-link {
   color: var(--blackColor)!important;
 }
+header nav .nav-item {
+  margin: 0px 10px;
+}
 /* End Top Bar */
