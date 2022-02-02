@@ -63,6 +63,7 @@ header nav .nav-item {
   color: var(--whiteColor);
   width: 100%;
   text-align: center;
+  font-size: 70px;
 }
 .slide1 {
   background-image: url(../img/slider1.jpg);
