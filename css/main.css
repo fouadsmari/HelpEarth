@@ -119,12 +119,18 @@ h2 > span {
   margin-top: 30px;
   height: 200px;
 }
+article div.card-of-events h3 {
+  margin-top: 5px;
+  font-size: 25px;
+} 
+article div.card-of-events .btn {
+  padding: 1px 15px ;
+}
 .mini-title {
   color: #5c5c5c;
   border-left: 3px solid;
   padding-left: 10px;
 }
-
 .mini-title-1 {
   border-color: #ffc107;
 }
