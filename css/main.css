@@ -91,4 +91,7 @@ section {
   color: var(--whiteColor)!important;
   font-size: 15px;
 }
+.shadow:hover {
+  box-shadow: 0 0.5rem 1rem var(--greenColor) !important;
+}
 /* End Section Project */
