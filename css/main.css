@@ -100,23 +100,24 @@ article.events {
   background-color: var(--greenColor);
   padding: 30px 0;
 }
-
-.card-of-events {
-  margin-top: 30px;
-  height: 200px;
+h2 > span {
+  color: #ffc107;
 }
-
 .card-total-events {
   margin-top: 30px;
   height: calc(400px + 30px);
   overflow: hidden;
 }
-
 .card-img-overlay {
   z-index: 20;
   background-color: var(--blackColor);
-  opacity: 0.9;
+  opacity: 0.8;
+  text-align: center;
+  padding: 30px;
 }
-
+.card-of-events {
+  margin-top: 30px;
+  height: 200px;
+}
 /* End Section Events */
 
