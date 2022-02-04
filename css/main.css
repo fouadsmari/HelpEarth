@@ -78,7 +78,7 @@ header nav .nav-item {
 
 /* Start Section Project */
 
-section {
+article {
   margin-top: 30px;
 }
 .card-deck {
@@ -90,5 +90,8 @@ section {
 .text-muted {
   color: var(--whiteColor)!important;
   font-size: 15px;
+}
+.shadow:hover {
+  box-shadow: 0 0.5rem 1rem var(--greenColor) !important;
 }
 /* End Section Project */
