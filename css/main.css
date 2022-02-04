@@ -143,5 +143,10 @@ article div.card-of-events .btn {
 .mini-title-4 {
   border-color: var(--blackColor);
 }
+@media screen and (max-width: 992px) {
+  .card-total-events {
+    height: 300px;
+  }
+}
 /* End Section Events */
 
