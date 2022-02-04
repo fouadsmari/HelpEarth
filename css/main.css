@@ -119,5 +119,23 @@ h2 > span {
   margin-top: 30px;
   height: 200px;
 }
+.mini-title {
+  color: #5c5c5c;
+  border-left: 3px solid;
+  padding-left: 10px;
+}
+
+.mini-title-1 {
+  border-color: #ffc107;
+}
+.mini-title-2 {
+  border-color: var(--blackColor);
+}
+.mini-title-3 {
+  border-color: var(--greenColor);
+}
+.mini-title-4 {
+  border-color: var(--blackColor);
+}
 /* End Section Events */
 
