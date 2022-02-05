@@ -6,7 +6,7 @@
 }
 /* End Variables */
 
-/* Start font */
+/* Start fonts */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -19,11 +19,13 @@ h2 {
 }
 h3 {
   font-weight:500;
+  font-size: 23px;
 }
 p {
   font-weight:400;
 }
-/* End font */
+/* End fonts */
+
 /* Start Change colors Bootstrap elements */
 .btn-success {
   background-color: var(--greenColor);
@@ -107,20 +109,21 @@ header nav .nav-item {
 
 /* Start Section Project */
 article {
-  margin-top: 30px;
+  padding: 50px 0px;
 }
-.card-deck {
-  margin: 50px 0;
+section.project-intro > p {
+  padding: 0px 50px;
 }
-.card-footer {
-  background-color: var(--greenColor);
-}
-.text-muted {
-  color: var(--whiteColor)!important;
-  font-size: 15px;
+section.card-project {
+  margin-top: 50px
 }
 .shadow:hover {
   box-shadow: 0 0.5rem 1rem var(--greenColor) !important;
+}
+@media screen and (max-width: 768px) {
+  article > p {
+    padding: 0px 10px;
+  }
 }
 /* End Section Project */
 
