@@ -6,6 +6,14 @@
 }
 /* End Variables */
 
+/* Start Change colors Bootstrap elements */
+.btn-success {
+  background-color: var(--greenColor);
+  border-color: var(--greenColor);
+}
+
+/* End Change colors Bootstrap elements */
+
 /* Start Top Bar */
 header div.Top-bar {
   background-color: var(--greenColor);
@@ -27,17 +35,16 @@ header nav {
   background-color: var(--whiteColor);
 }
 header > nav > a > span {
-  color: var(--greenColor)!important;
+  color: var(--greenColor);
 }
 header nav .nav-link {
   color: var(--blackColor)!important;
 }
 header nav .nav-item {
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
-.don {
-  color: var(--whiteColor);
-  background-color: var(--greenColor);
+#navbarSupportedContent > button {
+  font-weight: 700;
 }
 /* End Nav */
 
