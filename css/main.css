@@ -43,6 +43,9 @@ header nav .nav-link {
 header nav .nav-item {
   margin: 0px 15px;
 }
+#navbarSupportedContent > button {
+  font-weight: 700;
+}
 /* End Nav */
 
 /* Start Slider */
