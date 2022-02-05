@@ -109,6 +109,9 @@ header nav .nav-item {
 article {
   padding: 50px 0px;
 }
+article > p {
+  padding: 0px 50px;
+}
 .card-deck {
   margin: 50px 0;
 }
@@ -121,6 +124,11 @@ article {
 }
 .shadow:hover {
   box-shadow: 0 0.5rem 1rem var(--greenColor) !important;
+}
+@media screen and (max-width: 768px) {
+  article > p {
+    padding: 0px 10px;
+  }
 }
 /* End Section Project */
 
