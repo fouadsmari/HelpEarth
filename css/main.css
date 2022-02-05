@@ -176,3 +176,26 @@ form button {
   margin-top: 20px;;
 }
 /* End Contact */
+
+/* Start Footer */
+footer {
+  background-color: var(--greenColor);
+  padding: 10px;
+}
+footer .card {
+  background-color: transparent;
+}
+footer a {
+  color: var(--blackColor)!important;
+}
+footer a span {
+  color: var(--whiteColor)!important;
+}
+footer i {
+  font-size: 30px;
+  cursor: pointer;
+}
+ul li.list-group-item {
+  background-color: transparent;
+}
+/* End Footer */
