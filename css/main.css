@@ -150,3 +150,15 @@ article div.card-of-events .btn {
 }
 /* End Section Events */
 
+/* Start About us */
+.about {
+  /* background-color: var(--blackColor); */
+  width: 100vw;
+  padding: 50px 0px;
+}
+.features img {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+/* End About us */
