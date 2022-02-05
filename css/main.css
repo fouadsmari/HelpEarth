@@ -160,3 +160,19 @@ article div.card-of-events .btn {
   margin: 20px 0;
 }
 /* End About us */
+
+/* Start Contact */
+.contact-section {
+  background-color: var(--blackColor);
+  padding: 50px;
+}
+form input {
+  margin: 20px 0px 0px;
+}
+form textarea {
+  margin-top: 20px;
+}
+form button {
+  margin-top: 20px;;
+}
+/* End Contact */
