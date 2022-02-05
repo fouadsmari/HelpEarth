@@ -35,13 +35,13 @@ header nav {
   background-color: var(--whiteColor);
 }
 header > nav > a > span {
-  color: var(--greenColor)!important;
+  color: var(--greenColor);
 }
 header nav .nav-link {
   color: var(--blackColor)!important;
 }
 header nav .nav-item {
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 /* End Nav */
 
