@@ -6,7 +6,7 @@
 }
 /* End Variables */
 
-/* Start font */
+/* Start fonts */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -24,7 +24,7 @@ h3 {
 p {
   font-weight:400;
 }
-/* End font */
+/* End fonts */
 
 /* Start Change colors Bootstrap elements */
 .btn-success {
@@ -108,7 +108,7 @@ header nav .nav-item {
 /* End Slider */
 
 /* Start Section Project */
- article {
+article {
   padding: 50px 0px;
 }
 section.project-intro > p {
