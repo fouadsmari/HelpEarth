@@ -6,6 +6,14 @@
 }
 /* End Variables */
 
+/* Start Change colors Bootstrap elements */
+.btn-success {
+  background-color: var(--greenColor);
+  border-color: var(--greenColor);
+}
+
+/* End Change colors Bootstrap elements */
+
 /* Start Top Bar */
 header div.Top-bar {
   background-color: var(--greenColor);
@@ -35,10 +43,10 @@ header nav .nav-link {
 header nav .nav-item {
   margin: 0px 10px;
 }
-.don {
+/* .don {
   color: var(--whiteColor);
   background-color: var(--greenColor);
-}
+} */
 /* End Nav */
 
 /* Start Slider */
