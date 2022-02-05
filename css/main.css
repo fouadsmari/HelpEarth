@@ -15,6 +15,11 @@
 header .fab {
   font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+  .container-fluid div.col-md {
+    text-align: center!important;
+  }
+}
 /* End Top Bar */
 
 /* Start Nav */
