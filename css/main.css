@@ -7,13 +7,18 @@
 /* End Variables */
 
 /* Start Top Bar */
-.Top-bar {
+header div.Top-bar {
   background-color: var(--greenColor);
   color: var(--whiteColor);
   padding: 10px 0px;
 }
-header .fab {
+header div > i {
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .container-fluid div.col-md {
+    text-align: center!important;
+  }
 }
 /* End Top Bar */
 
