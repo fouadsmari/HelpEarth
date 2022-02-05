@@ -24,6 +24,7 @@ p {
   font-weight:400;
 }
 /* End font */
+
 /* Start Change colors Bootstrap elements */
 .btn-success {
   background-color: var(--greenColor);
@@ -106,21 +107,14 @@ header nav .nav-item {
 /* End Slider */
 
 /* Start Section Project */
-article {
+ article {
   padding: 50px 0px;
 }
-article > p {
+section.project-intro > p {
   padding: 0px 50px;
 }
-.card-deck {
-  margin: 50px 0;
-}
-.card-footer {
-  background-color: var(--greenColor);
-}
-.text-muted {
-  color: var(--whiteColor)!important;
-  font-size: 15px;
+section.card-project {
+  margin-top: 50px
 }
 .shadow:hover {
   box-shadow: 0 0.5rem 1rem var(--greenColor) !important;
