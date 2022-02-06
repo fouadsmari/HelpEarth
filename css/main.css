@@ -5,7 +5,6 @@
   --whiteColor:#ffffff;
 }
 /* End Variables */
-
 /* Start fonts */
 body{
   font-family: 'Roboto', sans-serif;
@@ -25,14 +24,12 @@ p {
   font-weight:400;
 }
 /* End fonts */
-
 /* Start Change colors Bootstrap elements */
 .btn-success {
   background-color: var(--greenColor);
   border-color: var(--greenColor);
 }
 /* End Change colors Bootstrap elements */
-
 /* Start Top Bar */
 header div.Top-bar {
   background-color: var(--greenColor);
@@ -48,7 +45,6 @@ header div > i {
   }
 }
 /* End Top Bar */
-
 /* Start Nav */
 header nav {
   background-color: var(--whiteColor);
@@ -66,7 +62,6 @@ header nav .nav-item {
   font-weight: 700;
 }
 /* End Nav */
-
 /* Start Slider */
 .carousel-inner {
   display: flex;
@@ -106,7 +101,6 @@ header nav .nav-item {
   background-image: url(../img/slider3.jpg);
 }
 /* End Slider */
-
 /* Start Section Project */
 article {
   padding: 50px 0px;
@@ -126,7 +120,6 @@ section.card-project {
   }
 }
 /* End Section Project */
-
 /* Start Section Events */
 article.events {
   background-color: var(--greenColor);
@@ -181,7 +174,6 @@ article div.card-of-events .btn {
   }
 }
 /* End Section Events */
-
 /* Start About us */
 .about {
   padding: 50px 0px;
@@ -192,7 +184,6 @@ article div.card-of-events .btn {
   margin: 20px 0;
 }
 /* End About us */
-
 /* Start Contact */
 .contact-section {
   background-color: var(--blackColor);
@@ -208,7 +199,6 @@ form button {
   margin-top: 20px;;
 }
 /* End Contact */
-
 /* Start Footer */
 footer {
   background-color: var(--greenColor);
