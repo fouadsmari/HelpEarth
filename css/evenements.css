@@ -1,7 +1,30 @@
 /* Start Title Event */
 article.title-events {
-    background-color: var(--blackColor);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: var(--blackColor);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* End Title Event */
+/* Start Details Events */
+article.details-events section {
+  margin: 50px auto;
+}
+.shadow:hover {
+  box-shadow: 0 0rem 1rem var(--blackColor) !important;
+}
+.event-section {
+  padding: 20px 10px;
+}
+.badge-dark {
+  padding: 20px;
+}
+article.details-events span {
+  font-size: 14px;
+}
+article.details-events h3 {
+  margin-top: 10px;
+}
+article.details-events p {
+  font-size: 14px;
+}
+/* End Details Events */
