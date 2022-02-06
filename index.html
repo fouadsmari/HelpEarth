@@ -48,22 +48,23 @@
           <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">A propos</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
             Evenements
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#events">Evenements</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="/pages/evenements.html">Details Evenements</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Contact</a>
+          <a class="nav-link" href="#a-propos">A Propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
       <button type="button" class="btn btn-success">Faire un Don</button>
@@ -94,7 +95,7 @@
     </div>
     <!-- End Slider-->
     <!-- Start Section Project-->
-    <article>
+    <article id="projects">
       <section class="container project-intro">
         <h2 class="text-uppercase text-center">Nos projects Help Earth</h2>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nobis dolorem voluptatum qui doloribus unde, officia necessitatibus ex voluptatem quo eos eius maxime atque doloremque laborum assumenda tempora adipisci provident?</p>
@@ -133,7 +134,7 @@
     </article>
     <!-- End Section Project-->
     <!-- Start Section Events -->
-    <article class="events">
+    <article class="events" id="events">
       <div class="container">
         <div>
           <h2 class="text-white text-center text-uppercase"> <span>|</span> Nos Evenements</h2>
@@ -147,43 +148,44 @@
                 <h3 class="card-title">Tous Nos Evenements</h3>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-warning">Voir Tous</a>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="/pages/evenements.html" class="btn btn-warning">Voir Tous</a>
               </div>
             </div>
           </div>
           <div class="col-md">
             <div class="card card-of-events">
               <div class="card-body">
-                <span class="mini-title mini-title-1 text-uppercase">Evenement</span>
-                <h3 class="card-title">Card title</h3>
+                <span class="mini-title mini-title-1 text-uppercase">Déchets Entreprises</span>
+                <h3 class="card-title">Avantage Recyclage</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-warning">Lire la suite</a>
+                <a href="/pages/evenements.html" class="btn btn-warning">Lire la suite</a>
               </div>
             </div>
             <div class="card card-of-events">
               <div class="card-body">
-                <span class="mini-title mini-title-2 text-uppercase">Evenement</span>
-                <h3 class="card-title">Card title</h3>
+                <span class="mini-title mini-title-2 text-uppercase">Energies</span>
+                <h3 class="card-title">Energie Propore</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-dark">Lire la suite</a>
+                <a href="/pages/evenements.html" class="btn btn-dark">Lire la suite</a>
               </div>
             </div>
           </div>
           <div class="col-sm">
             <div class="card card-of-events">
               <div class="card-body">
-                <span class="mini-title mini-title-3 text-uppercase">Evenement</span>
-                <h3 class="card-title">Card title</h3>
+                <span class="mini-title mini-title-3 text-uppercase">Agriculteurs</span>
+                <h3 class="card-title">Transition Ecologique</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-success">Lire la suite</a>
+                <a href="/pages/evenements.html" class="btn btn-success">Lire la suite</a>
               </div>
             </div>
             <div class="card card-of-events">
               <div class="card-body">
-                <span class="mini-title mini-title-4 text-uppercase">Evenement</span>
-                <h3 class="card-title">Card title</h3>
+                <span class="mini-title mini-title-4 text-uppercase">Polutions</span>
+                <h3 class="card-title">Impact Polution</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-dark">Lire la suite</a>
+                <a href="/pages/evenements.html" class="btn btn-dark">Lire la suite</a>
               </div>
             </div>
           </div>
@@ -192,7 +194,7 @@
     </article>
     <!-- End Section Events -->
     <!-- Start About us -->
-    <article class="about">
+    <article class="about" id="a-propos">
       <div class="container text-center">
         <h2 class="title-about text-capitalize">A propos de nous</h2>
         <p class="title-about text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita sequi id rem ipsam eum sint deserunt iure, incidunt temporibus quas accusantium? Quo officia ipsam fugit error consequuntur saepe sunt!</p>
@@ -218,7 +220,7 @@
     </article>
     <!-- End About us-->
     <!-- Start Contact -->
-    <div class="contact-section text-white text-center">
+    <div class="contact-section text-white text-center" id="contact">
       <h2>Contactez-Nous</h2>
       <form class="container">
         <div class="row">
