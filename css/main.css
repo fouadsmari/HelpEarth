@@ -214,9 +214,6 @@ footer {
   background-color: var(--greenColor);
   padding: 10px;
 }
-footer .card {
-  background-color: transparent;
-}
 footer a {
   color: var(--blackColor)!important;
 }
