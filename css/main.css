@@ -214,8 +214,8 @@ footer {
   background-color: var(--greenColor);
   padding: 10px;
 }
-footer .card {
-  background-color: transparent;
+footer > div.d-flex {
+  align-items: baseline;
 }
 footer a {
   color: var(--blackColor)!important;
@@ -229,5 +229,22 @@ footer i {
 }
 ul li.list-group-item {
   background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  footer > div.d-flex {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer > div > div.col-4 {
+    max-width: 50%!important;
+    flex: 0 0 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer > div > div.col-4 {
+    max-width: 100%!important;
+    flex: 0 0 100%;
+  }
 }
 /* End Footer */
