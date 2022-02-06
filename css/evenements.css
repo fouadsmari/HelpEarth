@@ -27,4 +27,8 @@ article.details-events h3 {
 article.details-events p {
   font-size: 14px;
 }
+article.details-events button {
+  padding: 2px 10px;
+  margin-bottom: 20px;
+}
 /* End Details Events */
