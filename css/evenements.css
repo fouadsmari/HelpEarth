@@ -24,6 +24,14 @@ section h2 {
 article.details-events section {
   margin: 50px auto;
 }
+article.details-events section div {
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 768px) {
+  article.details-events section div {
+    flex-wrap: wrap;
+  }
+}
 .shadow:hover {
   box-shadow: 0 0rem 1rem var(--blackColor) !important;
 }
