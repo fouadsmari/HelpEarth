@@ -5,6 +5,17 @@ article.title-events {
   background-size: cover;
 }
 /* End Title Event */
+/* Start breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+}
+.breadcrumb-item a {
+  color: var(--blackColor);
+}
+.breadcrumb .active {
+  color: var(--greenColor);
+}
+/* End Breadcrumb */
 /* Start Details Events */
 section h2 {
   margin-top: 50px;
