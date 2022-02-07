@@ -1,17 +1,24 @@
-# HelpEarth
+# HelpEarth Project Infos
 Project Studi Exam Association About Environnement
 
-## Used  tools, workflow and frameworks
+## Informations About Theme
+*Author: Fouad Smari
+*Version: 1.0
+*Last update : 07/02/2022
 
+## Used tools, workflow, frameworks and fonts
+
+### language and frameworks used
 *Html5
 *Css3
 *Bootstrap 4.6
+
+### fonts used
+*Google font Roboto
+*Fontawesome
+
+### tools used
 *Github
+
+### Workflow used
 *GitHub flow (Workflow)
-
-
-## Create folders and files for project
-  1 - Create index file : index.html ( Her you can find and modify html code)
-  2 - Create css folder
-    2 - 1 : main.css ( Her you will find and modify css properties )
-  3 - Create img folder for images ( Her you can find all images of theme )
