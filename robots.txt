@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: README.md
+sitemap: https://fouadsmari.com/helpearth/sitemap.xml
