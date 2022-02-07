@@ -6,6 +6,10 @@ article.title-events {
 }
 /* End Title Event */
 /* Start Details Events */
+section h2 {
+  margin-top: 50px;
+  color: var(--greenColor);
+}
 article.details-events section {
   margin: 50px auto;
 }
